@@ -1,0 +1,33 @@
+// =============================================
+// Global config
+// =============================================
+
+// Font Stacks
+
+$font-family--primary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font weights
+
+$font-weight--thin        : 100;
+$font-weight--light       : 300;
+$font-weight--medium      : 400;
+$font-weight--bold        : 700;
+$font-weight--ultra-bold  : 900;
+
+// Descriptive Base Colors
+
+$white      : #fff;
+$black      : #0b0b0b;
+$light-grey : #d3d3d3;
+$silver     : #C0C0C0;
+$blue       : #0000FF;
+// Color Usage
+
+// $color-primary   : ;
+// $color-secondary : ;
+$color-shadow : rgba($black, .2);
+
+// Text
+
+$base__font-size : 16px;
+$base__line      : 24px;
