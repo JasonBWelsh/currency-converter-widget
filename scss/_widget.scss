@@ -3,5 +3,34 @@
 // =============================================
 
 .main-container {
+  @include margin(3em 0 0);
+  @include pad(.5em);
   border: 1px solid $black;
+}
+
+.main-container,
+.input-container,
+.output-container {
+  @include flexbox();
+  @include flex-direction(#{column});
+}
+
+.control-wrap {
+  @include margin(1em 0);
+}
+
+input[type="number"] {
+  @include margin(0 .4em 0 0);
+  width: 60%;
+}
+
+input[type="number"] + select {
+  width: 20%;
+}
+
+input[type="number"],
+input[type="number"] + select {
+  @include border-radius(.3em);
+  height: 3em;
+  border: 1px solid $dark-grey;
 }

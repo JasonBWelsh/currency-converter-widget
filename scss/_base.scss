@@ -14,7 +14,15 @@ html {
   }
 
 body {
+  margin: 0;
+  padding: .5em;
   font-size: $base__font-size;
   line-height: ($base__line/$base__font-size);
   font-family: $font-family--primary;
+}
+
+h1 {
+  font-weight: $font-weight--light;
+  font-size: em(30px);
+  line-height: (46px / 42px);
 }

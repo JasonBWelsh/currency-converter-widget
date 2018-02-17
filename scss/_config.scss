@@ -16,11 +16,11 @@ $font-weight--ultra-bold  : 900;
 
 // Descriptive Base Colors
 
-$white      : #fff;
-$black      : #0b0b0b;
-$light-grey : #d3d3d3;
-$silver     : #C0C0C0;
-$blue       : #0000FF;
+$white       : #fff;
+$black       : #0b0b0b;
+$light-grey  : #d3d3d3;
+$dark-grey   : #323232;
+$blue        : #0000FF;
 // Color Usage
 
 // $color-primary   : ;
@@ -31,3 +31,7 @@ $color-shadow : rgba($black, .2);
 
 $base__font-size : 16px;
 $base__line      : 24px;
+
+// Breakpoints
+$break-m: 769px;
+$break-l: 992px;
