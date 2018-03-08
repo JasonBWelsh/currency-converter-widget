@@ -32,5 +32,14 @@ input[type="number"],
 input[type="number"] + select {
   @include border-radius(.3em);
   height: 3em;
-  border: 1px solid $dark-grey;
+  border: 3px solid $white;
+  background: none;
+  color: $white;
+}
+
+select option {
+  background: $dark-dev;
+  &:hover {
+    background: $black;
+  }
 }

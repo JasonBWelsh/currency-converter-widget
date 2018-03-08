@@ -312,7 +312,9 @@ body {
   padding: .5em;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #306efe;
+  color: #fff; }
 
 h1 {
   font-weight: 300;
@@ -354,6 +356,13 @@ input[type="number"] + select {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
   height: 3em;
-  border: 1px solid #323232; }
+  border: 3px solid #fff;
+  background: none;
+  color: #fff; }
+
+select option {
+  background: #1f2534; }
+  select option:hover {
+    background: #0b0b0b; }
 
 /*# sourceMappingURL=app.css.map */
